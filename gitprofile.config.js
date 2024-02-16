@@ -3,7 +3,7 @@
 const config = {
     github: {
         username: 'dann-costa', // Your GitHub org/user name. (Required)
-        sortBy: 'stars', // stars | updated
+        sortBy: 'updated', // stars | updated
         limit: 10, // How many projects to display.
         exclude: {
             forks: false, // Forked projects will not be displayed if set to true.
@@ -45,32 +45,26 @@ const config = {
     ],
     experiences: [
         {
-            company: 'Company Name',
-            position: 'Position',
-            from: 'September 2021',
-            to: 'Present',
-            companyLink: 'https://example.com',
+            company: 'DC WebSolutions',
+            position: 'CTO',
+            from: 'Janeiro de 2016',
+            to: 'Presente',
+            companyLink: 'https://dcwebsolutions.com.br',
         },
         {
-            company: 'Company Name',
-            position: 'Position',
-            from: 'July 2019',
-            to: 'August 2021',
-            companyLink: 'https://example.com',
+            company: 'Prefeitura Municipal de Guararema',
+            position: 'Desenvolvedor',
+            from: 'Julho 2015',
+            to: 'Julho 2019',
+            companyLink: 'https://guararema.sp.gov.br',
         },
     ],
     education: [
         {
-            institution: 'Institution Name',
-            degree: 'Degree',
+            institution: 'Braz Cubas',
+            degree: 'Graduação',
             from: '2015',
-            to: '2019',
-        },
-        {
-            institution: 'Institution Name',
-            degree: 'Degree',
-            from: '2012',
-            to: '2014',
+            to: '2018',
         },
     ],
     // Display blog posts from your medium or dev account. (Optional)
@@ -92,7 +86,7 @@ const config = {
 
         // Hides the switch in the navbar
         // Useful if you want to support a single color mode
-        disableSwitch: false,
+        disableSwitch: true,
 
         // Should use the prefers-color-scheme media-query,
         // using user system preferences, instead of the hardcoded defaultTheme
